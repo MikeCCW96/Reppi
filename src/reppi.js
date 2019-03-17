@@ -14,7 +14,10 @@ client.on('ready', () => {
 });
 
 client.on('message', (msg) => {
+
   if (msg.content === '!gacha') {
+    msg.reply("Gacha is no longer available")
+    /*
     if (talkedRecently.has(msg.author.id)) {
       msg.reply("slow down!")
     } else {
@@ -23,10 +26,13 @@ client.on('message', (msg) => {
         talkedRecently.delete(msg.author.id);
       }, 7000);
       standardGacha.gachaStart(msg);
-    }
+    }*/
   }
 
+
   if (msg.content.startsWith('!v')) {
+    msg.reply("Valkyrie list is no longer available")
+    /*
     const message = msg.content.substr(msg.content.indexOf(' ') + 1);
     if (message.startsWith('!v')) {
       valkyrie.setDiscordClient(Discord, client);
@@ -34,7 +40,7 @@ client.on('message', (msg) => {
     } else {
       valkyrie.setDiscordClient(Discord, client);
       valkyrie.valkyrieSearch(msg);
-    }
+    }*/
   }
 
   if (msg.content.startsWith('!w')) {

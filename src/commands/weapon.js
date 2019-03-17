@@ -20,6 +20,9 @@ function weaponTypeInputToString(weaponType) {
 	if (weaponType === 6) {
 		weaponTypeString = 'Gauntlet';
 	}
+	if (weaponType === 7) {
+		weaponTypeString = 'Scythe';
+	}
 	return weaponTypeString.toLowerCase();
 }
 
@@ -62,6 +65,10 @@ function weaponMenu(page, rarity, weaponType, msg) {
 			titleForEmbed = '4★ Gauntlet';
 			authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gauntleticon.PNG';
 		}
+		if (weaponType === 7) {
+			titleForEmbed = '4★ Scythe';
+			authorImageAttachmentForEmbed = 'src/images/equipment/weapon/scytheicon.PNG';
+		}
 	}
 
 	if (rarity === 3) {
@@ -88,6 +95,10 @@ function weaponMenu(page, rarity, weaponType, msg) {
 		if (weaponType === 6) {
 			titleForEmbed = '3★ Gauntlet';
 			authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gauntleticon.PNG';
+		}
+		if (weaponType === 7) {
+			titleForEmbed = '3★ Scythe';
+			authorImageAttachmentForEmbed = 'src/images/equipment/weapon/scytheicon.PNG';
 		}
 	}
 
@@ -116,6 +127,10 @@ function weaponMenu(page, rarity, weaponType, msg) {
 			titleForEmbed = '2★ Gauntlet';
 			authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gauntleticon.PNG';
 		}
+		if (weaponType === 7) {
+			titleForEmbed = '2★ Scythe';
+			authorImageAttachmentForEmbed = 'src/images/equipment/weapon/scytheicon.PNG';
+		}
 	}
 
 	if (rarity === 1) {
@@ -142,6 +157,10 @@ function weaponMenu(page, rarity, weaponType, msg) {
 		if (weaponType === 6) {
 			titleForEmbed = '1★ Gauntlet';
 			authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gauntleticon.PNG';
+		}
+		if (weaponType === 7) {
+			titleForEmbed = '1★ Scythe';
+			authorImageAttachmentForEmbed = 'src/images/equipment/weapon/scytheicon.PNG';
 		}
 	}
 
@@ -405,8 +424,12 @@ function weaponRarity(weaponType, msg) {
 				newMessage.delete();
 				weaponMenu(0, 3, weaponType, msg);
 			} else if (chosen === '3⃣') {
+				if (weaponType !== 7) {
+					weaponMenu(0, 2, weaponType, msg);
+				} else {
+					msg.reply('There is no 2★ Scythe');
+				}
 				newMessage.delete();
-				weaponMenu(0, 2, weaponType, msg);
 			} else if (chosen === '4⃣') {
 				newMessage.delete();
 				if (weaponType !== 6) {
@@ -440,7 +463,7 @@ function weaponList(msg) {
 		},
 		fields: [{
 			name: '----------------',
-			value: '1. Gun\n2. Katana\n3. Cannon\n4. Greatsword\n5. Cross\n6. Gauntlet',
+			value: '1. Gun\n2. Katana\n3. Cannon\n4. Greatsword\n5. Cross\n6. Gauntlet\n7. Scythe',
 		}],
 	};
 
@@ -464,6 +487,8 @@ function weaponList(msg) {
 			reaction.emoji.name === '5⃣' ||
 			user.id === msg.author.id &&
 			reaction.emoji.name === '6⃣' ||
+			user.id === msg.author.id &&
+			reaction.emoji.name === '7⃣' ||
 			user.id === msg.author.id &&
 			reaction.emoji.name === '▶' ||
 			user.id === msg.author.id &&
@@ -492,6 +517,9 @@ function weaponList(msg) {
 			} else if (chosen === '6⃣') {
 				newMessage.delete();
 				weaponRarity(6, msg);
+			} else if (chosen === '7⃣') {
+				newMessage.delete();
+				weaponRarity(7, msg);
 			} else if (chosen === '❌') {
 				newMessage.delete();
 			}
@@ -503,6 +531,7 @@ function weaponList(msg) {
 		await newMessage.react('4⃣').catch(() => {});
 		await newMessage.react('5⃣').catch(() => {});
 		await newMessage.react('6⃣').catch(() => {});
+		await newMessage.react('7⃣').catch(() => {});
 		await newMessage.react('❌').catch(() => {});
 	});
 }
@@ -673,6 +702,25 @@ function weaponSearch(msg) {
 				}
 			}
 
+			if (weaponDB[indexes[0]].type === 'scythe') {
+				if (weaponDB[indexes[0]].rarity === 4) {
+					titleForEmbed = '4★ Scythe';
+					authorImageAttachmentForEmbed = 'src/images/equipment/weapon/scytheicon.PNG';
+				}
+				if (weaponDB[indexes[0]].rarity === 3) {
+					titleForEmbed = '3★ Scythe';
+					authorImageAttachmentForEmbed = 'src/images/equipment/weapon/scytheicon.PNG';
+				}
+				if (weaponDB[indexes[0]].rarity === 2) {
+					titleForEmbed = '2★ Scythe';
+					authorImageAttachmentForEmbed = 'src/images/equipment/weapon/scytheicon.PNG';
+				}
+				if (weaponDB[indexes[0]].rarity === 1) {
+					titleForEmbed = '1★ Scythe';
+					authorImageAttachmentForEmbed = 'src/images/equipment/weapon/scytheicon.PNG';
+				}
+			}
+
 			const embed = {
 				author: {
 					name: titleForEmbed,
@@ -825,6 +873,25 @@ function weaponSearch(msg) {
 					if (weaponDB[indexes[i]].rarity === 1) {
 						titleForEmbed = '1★ Gauntlet';
 						authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gauntleticon.PNG';
+					}
+				}
+
+				if (weaponDB[indexes[i]].type === 'scythe') {
+					if (weaponDB[indexes[i]].rarity === 4) {
+						titleForEmbed = '4★ Scythe';
+						authorImageAttachmentForEmbed = 'src/images/equipment/weapon/scytheicon.PNG';
+					}
+					if (weaponDB[indexes[i]].rarity === 3) {
+						titleForEmbed = '3★ Scythe';
+						authorImageAttachmentForEmbed = 'src/images/equipment/weapon/scytheicon.PNG';
+					}
+					if (weaponDB[indexes[i]].rarity === 2) {
+						titleForEmbed = '2★ Scythe';
+						authorImageAttachmentForEmbed = 'src/images/equipment/weapon/scytheicon.PNG';
+					}
+					if (weaponDB[indexes[i]].rarity === 1) {
+						titleForEmbed = '1★ Scythe';
+						authorImageAttachmentForEmbed = 'src/images/equipment/weapon/scytheicon.PNG';
 					}
 				}
 				embedWeaponNames += `${i + 1}. ${weaponDB[indexes[i]].name} (${titleForEmbed})\n`;
@@ -990,6 +1057,25 @@ function weaponSearch(msg) {
 							if (weaponDB[indexes[i]].rarity === 1) {
 								titleForEmbed = '1★ Gauntlet';
 								authorImageAttachmentForEmbed = 'src/images/equipment/weapon/gauntleticon.PNG';
+							}
+						}
+
+						if (weaponDB[indexes[i]].type === 'scythe') {
+							if (weaponDB[indexes[i]].rarity === 4) {
+								titleForEmbed = '4★ Scythe';
+								authorImageAttachmentForEmbed = 'src/images/equipment/weapon/scytheicon.PNG';
+							}
+							if (weaponDB[indexes[i]].rarity === 3) {
+								titleForEmbed = '3★ Scythe';
+								authorImageAttachmentForEmbed = 'src/images/equipment/weapon/scytheicon.PNG';
+							}
+							if (weaponDB[indexes[i]].rarity === 2) {
+								titleForEmbed = '2★ Scythe';
+								authorImageAttachmentForEmbed = 'src/images/equipment/weapon/scytheicon.PNG';
+							}
+							if (weaponDB[indexes[i]].rarity === 1) {
+								titleForEmbed = '1★ Scythe';
+								authorImageAttachmentForEmbed = 'src/images/equipment/weapon/scytheicon.PNG';
 							}
 						}
 						const emoji = reactionNumberArray[i];

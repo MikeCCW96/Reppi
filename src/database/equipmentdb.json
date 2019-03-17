@@ -265,6 +265,18 @@
             "rarity": 4
         },
         {
+            "name": "Starry Woofers",
+            "skillonetitle": "Active Skill",
+            "skillonedetail": "User summons a giant Twinkling Star that flies upwards from the ground dealing 300% physical damage based on user attack power to all enemies standing in front. Any enemy that got hit by the star will be knocked up (excluding unbroken shielded elite enemy, berserk enemy, BOSS)",
+            "skilltwotitle": "Passive Skill",
+            "skilltwodetail": "During tag-in, every 3 seconds one Twinkling Star will appear randomly on the battlefield. Twinkling Star lasts for 4.5 seconds. When allied Valkyrja (including user) picks up the star:\n– Deal 200% physical damage based on user attack power to all enemies standing near the Valkyrja who picked up the star\n– Increase movement speed and physical damage by 10% for all allied Valkyrja (duration: 5 seconds, cannot be stacked with other buffs having same effect)\nPlus, for every time allied Valkyrja (including user) picks up a Twinkling Star, increase physical damage dealt via weapon skill by 50% for user",
+            "image": "houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/11/Weapon_Pistol_K27_199_5.png",
+            "attack": "234",
+            "critical": "8",
+            "type": "gun",
+            "rarity": 4
+        },
+        {
             "name": "Water Spirit Type-I",
             "skillonetitle": "Passive Skill",
             "skillonedetail": "Increase physical damage against float status enemy by 40%",
@@ -649,7 +661,7 @@
             "rarity": 4
         },
         {
-            "name": "Sheathed Blade",
+            "name": "Osahoko",
             "skillonetitle": "Passive Skill",
             "skillonedetail": "Upon performing a successful evasive move, charge electricity. First enemy on-hit remove electric charge, deal AOE 3982 physical damage and AOE 3982 lightning elemental damage. After charging electricity, cannot charge again after 1.5 second",
             "skilltwotitle": "Passive Skill",
@@ -661,7 +673,7 @@
             "rarity": 4
         },
         {
-            "name": "Wind Wielder",
+            "name": "Anemoi",
             "skillonetitle": "Active Skill",
             "skillonedetail": "Create a tornado, inflict knock-up to enemies upon touched, dealing 224 ice elemetal damage, reduce 80% attack speed and movement speed, tornado last for 1.80 seconds (EP Consumption: 20 - Cooldown: 25s)",
             "skilltwotitle": "Passive Skill",
@@ -709,7 +721,7 @@
             "rarity": 4
         },
         {
-            "name": "Candy Sword",
+            "name": "Ai-chan's Crutch",
             "skillonetitle": "Passive Skill",
             "skillonedetail": "On hit critical drop 3 ginger man. Each deal 149.7% physical damage based on attack power. Cooldown 8s",
             "skilltwotitle": "Passive Skill",
@@ -729,6 +741,30 @@
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/12/Weapon_Katana_M26_193_5.png",
             "attack": "287",
             "critical": "31",
+            "type": "katana",
+            "rarity": 4
+        },
+        {
+            "name": "Galactic Nova",
+            "skillonetitle": "Active Skill",
+            "skillonedetail": "After activating, generate a Music Field on a designated area for 10 seconds. If user stands within the field, every time user attack hits an enemy, the attack will deal extra 200 physical damage",
+            "skilltwotitle": "Passive Skill",
+            "skilltwodetail": "During tag-in, every 3 seconds one Twinkling Star will appear randomly on the battlefield. Twinkling Star lasts for 4.5 seconds. When allied Valkyrja (including user) picks up the star:\n– Deal 200% physical damage based on user attack power to all enemies standing near the Valkyrja who picked up the star\n– Increase critical rate by 5% for all allied Valkyrja (duration: 5 seconds, cannot be stacked with other buffs having same effect)",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/11/Weapon_Katana_M25_200_5.png",
+            "attack": "232",
+            "critical": "9",
+            "type": "katana",
+            "rarity": 4
+        },
+        {
+            "name": "Futsunushi-To",
+            "skillonetitle": "Active Skill",
+            "skillonedetail": "In next 6 seconds after use activated the skill, one Elemental Explosion will occur at a random area that is near the user every 1 second. The explosion deals 200% (random) elemental damage based on user attack power. At the same time, increases user elemental damage dealt (same type as the explosion) by 12% for 9 seconds, each element can stack up to 3 times",
+            "skilltwotitle": "Passive Skill",
+            "skilltwodetail": "When user attack hits an enemy, there is 10% chance to cause one Elemental Explosion at a random area that is near the user (cooldown: 1 second). The explosion deals 200% (random) elemental damage based on user attack power. At the same time, increases user elemental damage dealt (same type as the explosion) by 8% for 6 seconds, each element can stack up to 3 times",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/10/Weapon_Katana_M31_108_5.png",
+            "attack": "254",
+            "critical": "59",
             "type": "katana",
             "rarity": 4
         },
@@ -1033,7 +1069,7 @@
             "rarity": 4
         },
         {
-            "name": "Ymir's Wrist",
+            "name": "Hand of Ymir",
             "skillonetitle": "Rocket Launcher",
             "skillonedetail": "Charge 1 time: Shoot 1 normal missile\nCharge 2 times: Shoot 2 strong missiles\nCharge 3 times: Shoot 3 very strong missiles\nFor each 1m further away from the enemy, increase physical damage by 4%, stack up to 8 times",
             "skilltwotitle": "Active Skill",
@@ -1045,7 +1081,7 @@
             "rarity": 4
         },
         {
-            "name": "Fuxi Scroll",
+            "name": "Book of Fuxi",
             "skillonetitle": "Active Skill",
             "skillonedetail": "Fire Mode: Charge and shoot fire ball. On hit, has 30% chance to inflict burn, dealing 298 fire elemental damage per every 0.5 second, last for 3 seconds (works like Rocket Launcher)\n\nElectric Mode: Charge and shoot homing electric ball. On hit, has 15% chance to deal extra 150% electric elemental damage and inflict vulnerable status, reduce 60% defense power for 3 seconds (works like Cluster Missile Pod)\n\nIce Mode: Shoot ice fog​ continuously. On hit, has 5% chance to reduce 50% movement speed and attack speed for 3  seconds *(works like Particle Beam Cannon)",
             "skilltwotitle": "-",
@@ -1093,7 +1129,7 @@
             "rarity": 4
         },
         {
-            "name": "Tyr Wrist",
+            "name": "Hand of Tyr",
             "skillonetitle": "Rocket Launcher",
             "skillonedetail": "Charge 1 time: Shoot 1 normal rocket\nCharge 2 times: Shoot 2 strong rockets\nCharge 3 times: Shoot 3 very strong rockets\nIncrease 30% physical damage to broken shield enemies when perform normal attack or charge attack",
             "skilltwotitle": "Active Skill",
@@ -1153,7 +1189,7 @@
             "rarity": 4
         },
         {
-            "name": "M134 Vulcan",
+            "name": "M134 Vulcan Minigun",
             "skillonetitle": "Particle Beam Cannon",
             "skillonedetail": "Rapid-fire weapon\nContinuously deal damage to targets in a straight line.\nOverheat if keep firing without break\nThe nearer approach to enemy, the more damage dealt. Deal highest damage to all enemies within 3m radius",
             "skilltwotitle": "Active Skill",
@@ -1177,6 +1213,18 @@
             "rarity": 4
         },
         {
+            "name": "Stellar Tempo",
+            "skillonetitle": "Active Skill",
+            "skillonedetail": "After activating, all the stars on the battlefield will start glinting. Each star weakens and deals 200% physical damage based on user attack power. Weakened enemy will have its defense power decreased by 30% for 4 seconds",
+            "skilltwotitle": "Passive Skill",
+            "skilltwodetail": "During tag-in, every 3 seconds one Twinkling Star will appear randomly on the battlefield. Twinkling Star lasts for 4.5 seconds. When allied Valkyrja (including user) picks up the star:\n– Deal 200% physical damage based on user attack power to all enemies standing near the Valkyrja who picked up the star\n– Increase movement speed and physical damage by 10% for all allied Valkyrja (duration: 5 seconds, cannot be stacked with other buffs having same effect)",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/11/Weapon_Cannon_B24_201_5.png",
+            "attack": "232",
+            "critical": "10",
+            "type": "cannon",
+            "rarity": 4
+        },
+        {
             "name": "Markov Type A",
             "skillonetitle": "Rocket Launcher",
             "skillonedetail": "Charge 1 time: Shoot 1 normal rocket\nCharge 2 times: Shoot 2 strong rockets\nCharge 3 times: Shoot 3 very strong rockets",
@@ -1187,6 +1235,18 @@
             "critical": "38",
             "type": "cannon",
             "rarity": 3
+        },
+        {
+            "name": "Ranger's Laser",
+            "skillonetitle": "Active Skill",
+            "skillonedetail": "After activating, in next 11 seconds, user will have:\n– physical damage dealt via attack increases by 12%\n– movement speed decreases by 60%\nWhile this skill is active, the damage from laser will not be reduced based on range",
+            "skilltwotitle": "Passive Skill",
+            "skilltwodetail": "asdasdasdasdasdasdasd",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/06/wp_ranger-cannon_m.png",
+            "attack": "238",
+            "critical": "16",
+            "type": "cannon",
+            "rarity": 4
         },
         {
             "name": "Markov Type C",
@@ -1465,11 +1525,11 @@
             "rarity": 4
         },
         {
-            "name": "Schwert Gewehr",
+            "name": "Schiffschneider",
             "skillonetitle": "Active Skill",
-            "skillonedetail": "Emit a electromagnetic wind slash towards the front, dealing 2324 electric damage, inflict electric shock status to caught enemy for 7 seconds. Enemy in electric shock state receive extra 50% electric elemental damage (EP Consumption: 20 - Cooldown: 18s)",
+            "skillonedetail": "User performs a chop attack dealing 2333 lightning elemental damage to all enemies in front. Any enemy that got hit will receive Electrical Conductivity debuff. The debuff increases lightning elemental damage taken by 50% for 7 seconds",
             "skilltwotitle": "Passive Skill",
-            "skilltwodetail": "Add 79 electric elemental damage for each attack",
+            "skilltwodetail": "When user attack hits an enemy, the attack deals extra 80 lightning elemental damage\nIncrease user critical rate against paralyzed enemy by 30%",
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H14_95_5.png",
             "attack": "289",
             "critical": "16",
@@ -1489,7 +1549,7 @@
             "rarity": 4
         },
         {
-            "name": "Dawn Judgement",
+            "name": "Judgment By Dawn",
             "skillonetitle": "Active Skill",
             "skillonedetail": "Increase saw speed thus increase attack speed by 50%, increase critical rate by 25% for normal attack, attack can’t be interrupted, last for 8 seconds (EP Consumption: 18 - Cooldown: 24s)",
             "skilltwotitle": "Passive Skill",
@@ -1513,7 +1573,7 @@
             "rarity": 4
         },
         {
-            "name": "Ghostslayer Nagamitsu",
+            "name": "Gyukikiri Nagamitsu",
             "skillonetitle": "Passive Skill",
             "skillonedetail": "Charge energy while dashing, getting interrupted or stop dashing will reset the charging process. For every 0.5/1.5/3 seconds dashing duration, performing tackle attack will create an explosion to the first enemy in contact, dealing 399/599/799 % physical damage",
             "skilltwotitle": "Passive Skill",
@@ -1557,6 +1617,42 @@
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/08/Weapon_Claymore_H22_174_5-254590.png",
             "attack": "285",
             "critical": "32",
+            "type": "greatsword",
+            "rarity": 4
+        },
+        {
+            "name": "Ranger's Sawtooth",
+            "skillonetitle": "Active Skill",
+            "skillonedetail": "After activating, in next 15 seconds, user will have:\n– physical damage taken decreased by 25%\n– elemental damage taken decreased by 25%\n– movement speed decreased by 60%\nWhile this skill is active, deal 120% physical damage based on user attack power to all enemies standing near user within the range every 1 second",
+            "skilltwotitle": "Passive Skill",
+            "skilltwodetail": "When user takes a direct damage from enemy, there is 50% chance to reflect 120% physical damage based on user attack power to the attacker and all enemies surrounding it within the range (cooldown: 0.25 second)",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/06/wp_ranger-claymore_m.png",
+            "attack": "243",
+            "critical": "12",
+            "type": "greatsword",
+            "rarity": 4
+        },
+        {
+            "name": "Cleaver of Shamash",
+            "skillonetitle": "Active Skill",
+            "skillonedetail": "Activate Tenka Greatsword power for 10 seconds, consume 2% HP per second based on user max HP, if user HP is below 50%, consume 1% HP per second instead\nWhen basic attack, branch attack, charge attack or burst attack hit the enemy, deal additional 500 fire elemental damage, cooldown 0.3 second",
+            "skilltwotitle": "Passive Skill",
+            "skilltwodetail": "Increase all damage by 13%\nWhen user current HP is below 50% max HP, restore HP by 15 every second",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/12/Weapon_Claymore_H19_146_4.png",
+            "attack": "270",
+            "critical": "33",
+            "type": "greatsword",
+            "rarity": 4
+        },
+        {
+            "name": "Godslayer: Surtr",
+            "skillonetitle": "Active Skill",
+            "skillonedetail": "When burst attack hit an enemy, increase all damage by 5%, last for 10 seconds, cooldown 1 second, stack up to 4 times (if this skill is re-activated while being active, refresh its duration)",
+            "skilltwotitle": "Passive Skill",
+            "skilltwodetail": "Increase EP regain rate via attacking by 15%\nIncrease attack speed by 15%\nIncrease all damage by 25%",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/12/Weapon_Claymore_H25_191_5.png",
+            "attack": "275",
+            "critical": "27",
             "type": "greatsword",
             "rarity": 4
         },
@@ -1813,7 +1909,7 @@
             "rarity": 4
         },
         {
-            "name": "Silver Cleaver",
+            "name": "Silver Reaper",
             "skillonetitle": "Active Skill",
             "skillonedetail": "Summon cross and deploy: summon a 6 seconds field, cut 3 times per every 1 second randomly to enemies in field, each cut deal 664 physical damage, inflict 5 second weaken status, reduce their attack power by 50% ",
             "skilltwotitle": "Passive Skill",
@@ -1845,6 +1941,42 @@
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2017/12/Weapon_Cross_T13_183_5.png",
             "attack": "275",
             "critical": "36",
+            "type": "cross",
+            "rarity": 4
+        },
+        {
+            "name": "Super-Sonata",
+            "skillonetitle": "Active Skill",
+            "skillonedetail": "Summon cross and deploy field, last for 10 second\nShoot laser inside cross field, each laser deal 250% fire elemental damage based on attack power.\nIncrease elemental damage dealt for all squad member inside cross field by 15%",
+            "skilltwotitle": "Passive Skill",
+            "skilltwodetail": "Increase user all damage dealt by 40% during Burst mode",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/07/wp_sonata_m.png",
+            "attack": "271",
+            "critical": "38",
+            "type": "cross",
+            "rarity": 4
+        },
+        {
+            "name": "Jack'o Lantern",
+            "skillonetitle": "Active Skill",
+            "skillonedetail": "Setup and deploy the cross for 8 seconds The cross sets one Pumpkin Bomb at a random enemy’s position every 0.6 second. Pumpkin Bomb explodes right after it is set dealing 685 fire elemental damage to all enemies standing near it within the range",
+            "skilltwotitle": "-",
+            "skilltwodetail": "-",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/10/wp_pumpkin-cross_m.png",
+            "attack": "226",
+            "critical": "22",
+            "type": "cross",
+            "rarity": 4
+        },
+        {
+            "name": "Selune's Elegy",
+            "skillonetitle": "Active Skill",
+            "skillonedetail": "Setup and deploy the cross for 10 seconds\nThe cross deals 150% ice elemental damage based on user attack power every 1 second to all enemies surrounding it within the range\nWhile this skill is active, every time enemy steps in/out the range of the cross, it receives 400% ice elemental damage based user attack power (cooldown: 0.5 second)",
+            "skilltwotitle": "Passive Skill",
+            "skilltwodetail": "When user charge attack hits an enemy, the attack deals extra 1000 physical damage and 1500 ice elemental damage to the enemy and all enemies surrounding it within the range (cooldown: 5 seconds)",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/11/Weapon_Cross_T15_195_5.png",
+            "attack": "275",
+            "critical": "27",
             "type": "cross",
             "rarity": 4
         },
@@ -1981,7 +2113,7 @@
             "rarity": 1
         },
         {
-            "name": "Sky Query Thousand Birds",
+            "name": "Cygnus Gauntlet",
             "skillonetitle": "Active Skill",
             "skillonedetail": "[EP consumption: 5] [Cooldown: 16 seconds] Grant a enhancement buff. While the effect is active, increase all squad members recovery effect by 30%, increase Valkyrja own attack speed by 40%, last for 8 seconds",
             "skilltwotitle": "Passive Skill",
@@ -1993,7 +2125,7 @@
             "rarity": 4
         },
         {
-            "name": "Star Ring Vortex",
+            "name": "Stellar Vortex",
             "skillonetitle": "Active Skill",
             "skillonedetail": "[EP consumption: 14] [Cooldown: 20 seconds] Pull the target in front of Valkyrja, deal 450% physical damage based on attack power, slow its speed by 80%, last for 5 seconds",
             "skilltwotitle": "Passive Skill",
@@ -2005,7 +2137,7 @@
             "rarity": 4
         },
         {
-            "name": "Fist of Taixu",
+            "name": "Grips of Tai Xuan",
             "skillonetitle": "Active Skill",
             "skillonedetail": "[EP consumption: 17] [Cooldown: 25 seconds] Summon 3 projectile Xuanyuan swords. Each projectile deals 1500 fire elemental damage, and spacetime lock on-hit enemy for 4.5 seconds",
             "skilltwotitle": "Passive Skill",
@@ -2017,7 +2149,7 @@
             "rarity": 4
         },
         {
-            "name": "Darken Nuada",
+            "name": "Nuada's Grief",
             "skillonetitle": "Active Skill",
             "skillonedetail": "[EP consumption: 15] [Cooldown: 20 seconds] Deal 600% physical damage based on attack power to enemy in front, inflict bleed status on on-hit enemy, deal 500 physical damage based on attack power per 0.5 second, last for 8 seconds",
             "skilltwotitle": "Passive Skill",
@@ -2029,7 +2161,7 @@
             "rarity": 4
         },
         {
-            "name": "Ember of Kite",
+            "name": "Cinder Hawk",
             "skillonetitle": "Passive Skill",
             "skillonedetail": "20% chance to deal extra 300% fire elemental damage against burn enemy or enemy inflicted with Lingering Fire. Can only be triggered every 1.5 second for each enemy",
             "skilltwotitle": "Passive Skill",
@@ -2041,7 +2173,7 @@
             "rarity": 4
         },
         {
-            "name": "Titan Fist",
+            "name": "Wotan's Fists",
             "skillonetitle": "Active Skill",
             "skillonedetail": "[EP Consumption: 18] [Cooldown: 35 seconds] Pull surrounding enemies towards user, paralyze them for 5 seconds. The next 5 seconds after triggering this skill, the next attack deals extra 1000% physical damage based on attack power to the target and all enemies surrounding it and knocks them back",
             "skilltwotitle": "Passive Skill",
@@ -2053,7 +2185,7 @@
             "rarity": 4
         },
         {
-            "name": "Twin Wolves of Eternal Twilight",
+            "name": "Skoll and Hati",
             "skillonetitle": "Active Skill",
             "skillonedetail": "[EP Consumption: 11] [Cooldown: 30 seconds] After activating, continuously release shockwave, deal 50% physical damage based on attack power to surrounding enemies every 0.5 second. Plus, decrease damage taken from side, back of user by 65%, last for 10 seconds",
             "skilltwotitle": "Passive Skill",
@@ -2061,6 +2193,30 @@
             "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/06/wp_twin-wolves_m.png",
             "attack": "283",
             "critical": "24",
+            "type": "gauntlet",
+            "rarity": 4
+        },
+        {
+            "name": "Ranger Gauntlets",
+            "skillonetitle": "Active Skill",
+            "skillonedetail": "User consumes 15% max HP to increase own all damage dealt by 30% for 9 seconds",
+            "skilltwotitle": "Passive Skill",
+            "skilltwodetail": "During tag-out, decrease indirect physical damage taken by 10% for all members in the team, the buff effect lasts for 7 seconds, refresh the duration every time user performs tag-out",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/06/wp_ranger-gloves_m.png",
+            "attack": "245",
+            "critical": "11",
+            "type": "gauntlet",
+            "rarity": 4
+        },
+        {
+            "name": "Jade Bloom",
+            "skillonetitle": "Passive Skill",
+            "skillonedetail": "When attack hit an enemy, drop an item that heal all squad members by 30 HP, cooldown 3 seconds",
+            "skilltwotitle": "Passive Skill",
+            "skilltwodetail": "When a squad member pick up a HP restore item, increase all damage by 15%, last for 6 seconds. This effect does not stack with other skill having the same effect",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/themes/powen-lite/weapon-asset/Weapon_Fist_F9_35_4/icon-Weapon_Fist_F9_35_4.png",
+            "attack": "223",
+            "critical": "16",
             "type": "gauntlet",
             "rarity": 4
         },
@@ -2111,6 +2267,126 @@
             "critical": "8",
             "type": "gauntlet",
             "rarity": 2
+        },
+        {
+            "name": "Aphrodite",
+            "skillonetitle": "Active Skill",
+            "skillonedetail": "Moving forwards to behind the target, then perform a slash attack that deal 400% + 8*50% physical damage based on attack power to the target and all surrounding enemies",
+            "skilltwotitle": "Passive Skill",
+            "skilltwodetail": "Increase physical damage by 20%\nWhen basic attack hits an enemy, deal additional 200% physical damage to that enemy and surrounding enemies, cooldown 4 seconds. This attack has a 100% critical rate against mechanical type enemy",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/12/Weapon_Scythe_R6_239_5.png",
+            "attack": "279",
+            "critical": "29",
+            "type": "scythe",
+            "rarity": 4
+        },
+        {
+            "name": "Senescence",
+            "skillonetitle": "Active Skill",
+            "skillonedetail": "Attack the target and enemies surrounding it, deal 200% physical damage based on attack power and cause bleed to them, dealing 20% physical damage based on attack power every 0.5 second, last for 5 seconds",
+            "skilltwotitle": "Passive Skill",
+            "skilltwodetail": "Increase critical rate by 10% and critical damage by 15% against bleeding enemies",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/12/Weapon_Scythe_R3_243_5.png",
+            "attack": "225",
+            "critical": "15",
+            "type": "scythe",
+            "rarity": 4
+        },
+        {
+            "name": "Onyx Iron",
+            "skillonetitle": "Active Skill",
+            "skillonedetail": "Generate a all-damage shield based on 12% max HP of user.\nWhen the shield is up, restore 22 HP every second to user, increase user all damage by 10%. Shield lasts for 10 seconds",
+            "skilltwotitle": "Passive Skill",
+            "skilltwodetail": "Increase all damage based on user current HP compared with full HP. For every 10% missing HP, increase all damage by 1.20%",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/themes/powen-lite/weapon-asset/Weapon_Scythe_R4_237_5/icon-Weapon_Scythe_R4_237_5.png",
+            "attack": "249",
+            "critical": "27",
+            "type": "scythe",
+            "rarity": 4
+        },
+        {
+            "name": "Genome Reaper",
+            "skillonetitle": "Active Skill",
+            "skillonedetail": "Release toxin around user, deal 100% lightning elemental damage based on attack power every 0.5 second, last for 4.9 seconds. At the end of the duration, further increase toxin concentration, deal 700% lightning elemental damage instead",
+            "skilltwotitle": "Passive Skill",
+            "skilltwodetail": "Increase movement speed by 20%\nIncrease user physical and elemental damage dealt based on user’s bonus movement speed by 5% (up to 35%) for each 10% bonus movement speed.",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/themes/powen-lite/weapon-asset/Weapon_Scythe_R8_241_5/icon-Weapon_Scythe_R8_241_5.png",
+            "attack": "275",
+            "critical": "30",
+            "type": "scythe",
+            "rarity": 4
+        },
+        {
+            "name": "Skadi Ondurgud",
+            "skillonetitle": "Active Skill",
+            "skillonedetail": "Attack all the enemy in a large area, dealing 7*120% ice elemental damage based on attack power. Enemies affected by the skill will have their attack all damage decreased by 30%, this effect only applies to their first attack within 8 seconds after affected by the skill.",
+            "skilltwotitle": "Passive Skill",
+            "skilltwodetail": "Increase user all damage by 20%",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/themes/powen-lite/weapon-asset/Weapon_Scythe_R7_240_5/icon-Weapon_Scythe_R7_240_5.png",
+            "attack": "285",
+            "critical": "24",
+            "type": "scythe",
+            "rarity": 4
+        },
+        {
+            "name": "Moment of Truth",
+            "skillonetitle": "Active Skill",
+            "skillonedetail": "Activate a spacetime decelerate area around target enemy, last for 2 second. At the same time, increase user attack speed by 30% for 5 seconds",
+            "skilltwotitle": "-",
+            "skilltwodetail": "-",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/themes/powen-lite/weapon-asset/Weapon_Scythe_R10_244_3/icon-Weapon_Scythe_R10_244_3.png",
+            "attack": "160",
+            "critical": "16",
+            "type": "scythe",
+            "rarity": 3
+        },
+        {
+            "name": "Carmine Steel",
+            "skillonetitle": "Active Skill",
+            "skillonedetail": "Generate a all-damage shield based on 10% max HP of user.\nWhen the shield is up, restore 15 HP every second to user, increase user all damage by 10%. Shield lasts for 10 seconds",
+            "skilltwotitle": "-",
+            "skilltwodetail": "-",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/themes/powen-lite/weapon-asset/Weapon_Scythe_R4_236_4/icon-Weapon_Scythe_R4_236_4.png",
+            "attack": "249",
+            "critical": "27",
+            "type": "scythe",
+            "rarity": 3
+        },
+        {
+            "name": "Azure Storm",
+            "skillonetitle": "Passive Skill",
+            "skillonedetail": "Every time attack hits an enemy, increase user attack speed by 2%, last for 7 seconds, stack up to 10 times",
+            "skilltwotitle": "-",
+            "skilltwodetail": "-",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/12/Weapon_Scythe_R2_235_4.png",
+            "attack": "160",
+            "critical": "16",
+            "type": "scythe",
+            "rarity": 3
+        },
+        {
+            "name": "Obsidian Reaper",
+            "skillonetitle": "Active Skill",
+            "skillonedetail": "Knock back the enemy front, dealing 350% physical damage based on attack power. After performing skill, every basic attack deal additional 70 fire elemental damage, last for 10 seconds.",
+            "skilltwotitle": "-",
+            "skilltwodetail": "-",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/12/Weapon_Scythe_R2_234_4.png",
+            "attack": "163",
+            "critical": "27",
+            "type": "scythe",
+            "rarity": 3
+        },
+        {
+            "name": "Scythe",
+            "skillonetitle": "-",
+            "skillonedetail": "-",
+            "skilltwotitle": "-",
+            "skilltwodetail": "-",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/themes/powen-lite/weapon-asset/Weapon_Scythe_R1_233_2/icon-Weapon_Scythe_R1_233_2.png",
+            "attack": "70",
+            "critical": "12",
+            "type": "scythe",
+            "rarity": 1
         }
     ],
     "stigmata": [

@@ -1,4 +1,5 @@
-const images = require('images');
+
+/*const images = require('images');
 const standardGachaValkyrieDb = require('../database/standardGachadb').valkyrie;
 const standardGachaItemsDb = require('../database/standardGachadb').item;
 
@@ -142,4 +143,4 @@ async function gachaStart(msg) {
 
 }
 
-exports.gachaStart = gachaStart;
+exports.gachaStart = gachaStart;*/

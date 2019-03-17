@@ -1,4 +1,4 @@
-const valkyrieDB = require('../database/equipmentdb.json').valkyrie;
+/*const valkyrieDB = require('../database/equipmentdb.json').valkyrie;
 const emoji = require('../database/emoji.json').emoji;
 const Reppi = require('../reppi.js');
 const reactionNumberArrayValkyrie = ['1⃣', '2⃣', '3⃣', '4⃣', '5⃣', '6⃣', '7⃣', '8⃣', '9⃣'];
@@ -605,4 +605,4 @@ function replyPage(msg, valkyrie, page = 'weapon') {
 
 exports.valkyrieList = valkyrieList;
 exports.valkyrieSearch = valkyrieSearch;
-exports.setDiscordClient = setDiscordClient;
+exports.setDiscordClient = setDiscordClient;*/
