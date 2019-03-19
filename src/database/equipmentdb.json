@@ -49,7 +49,7 @@
             "rarity": 4
         },
         {
-            "name": "Dominator's Pistol",
+            "name": "Dominators",
             "skillonetitle": "Active Skill",
             "skillonedetail": "Forms a number of rising punches from the ground, each deal physical damage 50% based on attack power to the targeted enemy surroundings, inflict burn status to them, dealing 149 fire elemental damage per every 0.5 seconds, last for 2.10 seconds (EP Consumption: 25 - Cooldown: 10s)",
             "skilltwotitle": "Passive Skill",
@@ -145,7 +145,7 @@
             "rarity": 4
         },
         {
-            "name": "Hurricane Revolver",
+            "name": "Hurricanes",
             "skillonetitle": "Active Skill",
             "skillonedetail": "Summon a whirlwind around self, dealing rapid attack to surrounding enemy, each attack deals 174 ice elemental damage. The whirlwind exlode when expires, dealing 300% physical damage, and inflicting 60% slowing moving speed and attack speed to the enemy, last for 1.50 seconds, Kiana can move during whirlwind duration (EP Consumption: 24 - Cooldown: 30s)",
             "skilltwotitle": "Passive Skill",
@@ -157,7 +157,7 @@
             "rarity": 4
         },
         {
-            "name": "Usurper Hand Cannon",
+            "name": "Usurpers",
             "skillonetitle": "Active Skill",
             "skillonedetail": "Shoot out a low-frequency sound, dealing 379% physical damage based on attack power, inflict 6 seconds weaken status to enemies, reduce their attack power by 60% (EP Consumption: 15 - Cooldown: 15s)",
             "skilltwotitle": "Passive Skill",
@@ -169,7 +169,7 @@
             "rarity": 4
         },
         {
-            "name": "Proto Spirit Bow",
+            "name": "Proto Alberich's Bows",
             "skillonetitle": "Active Skill",
             "skillonedetail": "Fire 2 wind bullet in a straight line, each deal physical damage 110% based on attack power. On hit against enemy with bleed status regain 10 EP to wielder (EP consumption: 18 - Cooldown:0s)",
             "skilltwotitle": "Passive Skill",
@@ -181,7 +181,7 @@
             "rarity": 4
         },
         {
-            "name": "Mutated - Bow of Hel",
+            "name": "PSY - Bows of Hel",
             "skillonetitle": "Active Skill",
             "skillonedetail": "Fire a beam that turns into a stream of bullet raining from above to an area in front, dealing 9*59.8% attack power and inflict freeze status for 5 seconds (EP consumption: 16 - Cooldown:18s)",
             "skilltwotitle": "Passive Skill",
@@ -229,7 +229,7 @@
             "rarity": 4
         },
         {
-            "name": "Ranger Hand Cannon",
+            "name": "Ranger's Pistol",
             "skillonetitle": "Passive Skill",
             "skillonedetail": "After activating, release a Flame Wave with user as the center of the wave every 1 second, last for 10 seconds. Each wave deals 800 fire elemental damage\nWhile this skill is active, if user successfully perform perfect evasion skill, additionally release a Strong Flame Wave dealing 4000 fire elemental damage to all enemies standing within the range Any enemy got hit by the wave will have 10% chance to be stunned for 2 seconds",
             "skilltwotitle": "Passive Skill",
@@ -241,7 +241,7 @@
             "rarity": 4
         },
         {
-            "name": "Bloody Saint",
+            "name": "Blooded Saints",
             "skillonetitle": "Passive Skill",
             "skillonedetail": "When user basic attack or burst attack hits an enemy, summon Support Attack to deal 450% physical damage to the enemy and all enemies surrounding it within the range (cooldown: 6 seconds) When equipped on Original Sin Hunter, any enemy got hit by Support Attack will receive Pursuit Mark for 13 seconds",
             "skilltwotitle": "Passive Skill",
@@ -253,7 +253,7 @@
             "rarity": 4
         },
         {
-            "name": "Halloween Spirit",
+            "name": "Halloween Spirits",
             "skillonetitle": "Active Skill",
             "skillonedetail": "User summons 3 Pumpkin Bombs around user. Each bomb deals 300% fire elemental damage based on user attack power\n※Pumpkin Maze: In next 5 seconds after activating, 3 Pumpkin Bombs will be summoned around every 1 second. Each bomb deals 500% fire elemental damage based on user attack power",
             "skilltwotitle": "Passive Skill",
@@ -4732,6 +4732,118 @@
             "name": "Edwin Hubble",
             "set1": "When hitting a slowed enemy, increase attack speed by 15%, lasts for 4 seconds, this duration is refreshed every time the effect is reactivated while it is active",
             "set2": "Increase ice elemental damage by 30%\nIncrease all-damage of branch/charge attacks by 10%",
+            "type": "set",
+            "rarity": 4
+        },
+        {
+            "name": "Wilde",
+            "skill": "Increase physical damage by 30%\nWhen entering time fracture, increase attack speed by 20% for 4 seconds.",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/11/wilde-thumb-top.png",
+            "type": "top",
+            "rarity": 4
+        },
+        {
+            "name": "Wilde",
+            "skill": "When HP is below 20%, immediately heal 800 HP. Cooldown 30 seconds.",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/11/wilde-thumb-center.png.png",
+            "type": "mid",
+            "rarity": 4
+        },
+        {
+            "name": "Wilde",
+            "skill": "Increase crit rate by 10%. When a charge attack hits an enemy, cause bleed to the target and its surrounding enemies, dealing 400 physical damage every 0.5 seconds for 3 seconds. Cooldown 9 seconds.",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/11/wilde-thumb-bottom.png",
+            "type": "bottom",
+            "rarity": 4
+        },
+        {
+            "name": "Wilde",
+            "set1": "When you lose 15% of max HP in a short period of time, enter Potential state:\nPotential State: Increasing all-damage by 30% for 5 seconds. Cooldown 12 seconds.",
+            "set2": "Critical damage is increased by 50%, and increase duration of potential state by 2 seconds.",
+            "type": "set",
+            "rarity": 4
+        },
+        {
+            "name": "Darwin",
+            "skill": "For every time user performs 15 consecutive hits, increase user lightning elemental damage by 8%, stack up to 4 times (this buff lasts until battle ends, but reset if user dies)",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/09/S3AS_1-1065.png",
+            "type": "top",
+            "rarity": 4
+        },
+        {
+            "name": "Darwin",
+            "skill": "For every time user is attacked by enemy, decrease user all damage taken by 7%, stack up to 4 times (this buff lasts until battle ends, but reset if user dies)",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/09/S3AS_2-1103.png",
+            "type": "mid",
+            "rarity": 4
+        },
+        {
+            "name": "Darwin",
+            "skill": "For every time user successfully performs perfect evasion skill, increase user all damage by 6%, stack up to 4 times (this buff lasts until battle ends, but reset if user dies)",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/09/S3AS_3-1234.png",
+            "type": "bottom",
+            "rarity": 4
+        },
+        {
+            "name": "Darwin",
+            "set1": "When battle starts, grant user a shield\n◆ While the shield is active, increase user lightning elemental damage by 20%\n◆ When user receives an attack, the shield will paralyze all surrounding enemies. After that, it will disappear and enter 10 seconds cooldown",
+            "set2": "Increase user movement speed by 20%\nThe shield can receive up to 2 attacks in total",
+            "type": "set",
+            "rarity": 4
+        },
+        {
+            "name": "Thales",
+            "skill": "Increase all damage by 25%\nFor each hit in the combo chain, increase fire elemental damage by 1.5%, stack up to 10 times",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/12/S4BV_1-3.png",
+            "type": "top",
+            "rarity": 4
+        },
+        {
+            "name": "Thales",
+            "skill": "Increase all damage by 20%\nWhen user attack hits an enemies, increase user fire elemental damage dealt against that enemy by 2%, last for 3 seconds, stack up to 10 times (if this skill is re-activated while being active, refresh its duration)",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/12/S4BV_2-3.png",
+            "type": "mid",
+            "rarity": 4
+        },
+        {
+            "name": "Thales",
+            "skill": "Increase attack speed by 15%\nFor each hit in the combo chain, decrease user direct physical damage taken by -1.5%, stack up to 10 times",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/uploads/sites/2/2018/12/S4BV_3-3.png",
+            "type": "bottom",
+            "rarity": 4
+        },
+        {
+            "name": "Thales",
+            "set1": "Charge energy every 10 seconds. Release energy when using charge attack which increases user all damage by 50% for that attack and a short duration afterwards. Also user will go into scorching heat mode for 5 seconds.\nScorching Heat: increase user burst attack by 30%",
+            "set2": "Scorching Heat mode increases user endurance and decrease all damage taken 15%, restore 50HP per second",
+            "type": "set",
+            "rarity": 4
+        },
+        {
+            "name": "Robert Peary",
+            "skill": "Increase all damage by 20%\nWhen combo chain reach 20, increase ice elemental damage by 20%",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/themes/powen-lite/stigmata-icon/S4CB_1.png",
+            "type": "top",
+            "rarity": 4
+        },
+        {
+            "name": "Robert Peary",
+            "skill": "For every hit in the combo chain, increase all damage by 0.4%, ice elemental damage by 0.5%, stack up to 60 times",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/themes/powen-lite/stigmata-icon/S4CB_2.png",
+            "type": "mid",
+            "rarity": 4
+        },
+        {
+            "name": "Robert Peary",
+            "skill": "When attack hits a frozen enemy or an enemy in Ice Prison state (refer to Azure Knight ability), restore 300 HP to user, cooldown 9 seconds",
+            "image": "http://houkai3rd.arthobbylab.com/wp-content/themes/powen-lite/stigmata-icon/S4CB_3.png",
+            "type": "bottom",
+            "rarity": 4
+        },
+        {
+            "name": "Robert Peary",
+            "set1": "When enemy attack hits the user, decrease the all damage from that attack by 25%, and freeze that enemy for 5 seconds. Effect only activates once per enemy",
+            "set2": "Increase attack speed by 20%\nIncrease all damage by 25%",
             "type": "set",
             "rarity": 4
         },
